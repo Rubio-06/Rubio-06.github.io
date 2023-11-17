@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Poppins:wght@300&display=swap');
 
+body{
+    background-color: #141414;
+    font-family: 'Poppins';
+}
+
 nav{
     display: flex;
     justify-content: space-around;
