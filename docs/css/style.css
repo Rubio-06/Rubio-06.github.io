@@ -43,7 +43,7 @@ nav ul li a:hover{
     color: #FFFFFF;
 }
 
-nav ul li a:not(.active):after{
+nav .nav-left li a:not(.active):after{
     content: "";
     position: absolute;
     left: 0;
@@ -54,7 +54,7 @@ nav ul li a:not(.active):after{
     transition: width 0.2s ease-out;
  }
  
- nav ul li > a:hover::after {
+ nav .nav-left  li > a:hover::after {
     width: 100%;
  }   
 
@@ -69,10 +69,21 @@ nav .head-info{
     align-items: center;
 }
 
-nav a{
+nav .nav-right{
+    align-items: center;
+    display: flex;
+}
+
+nav .nav-right a{
     cursor: pointer;
     text-decoration: none;
     color: #FFFFFF;
+    margin-right: 20px;
+}
+
+nav .nav-right .en{
+    height: 32px;
+    cursor: pointer;
 }
 
 header{
