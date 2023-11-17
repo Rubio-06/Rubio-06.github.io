@@ -13,7 +13,7 @@ nav{
 }
 
 nav h1{
-    color: #f0e48c;
+    color: #F7EDA1;
 }
 
 nav ul{
@@ -52,11 +52,11 @@ nav .nav-left li a:not(.active):after{
     height: 2px;
     background-color: #f0e48c;
     transition: width 0.2s ease-out;
- }
+}
  
- nav .nav-left  li > a:hover::after {
+nav .nav-left li > a:hover::after {
     width: 100%;
- }   
+}   
 
 nav ul .active{
     color: #FFFFFF;
@@ -169,18 +169,20 @@ header .head-all{
 }
 
 .nav-right .lang-all li{
-    padding: 12px 20px 12px 20px;
+    padding: 12px 0px 12px 0px;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     margin-right: 0px;
 }
 
 .nav-right .lang-all li img{
-    margin-right: 15px;
-    margin-left: 5px;
+    padding-left: 15px;
 }
 
 .nav-right .lang-all li a{
+    padding: 3px 10px 3px 10px;
     color: #585858;
     text-decoration: none;
 }
