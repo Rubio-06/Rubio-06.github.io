@@ -132,3 +132,60 @@ header .head-all{
     align-items: center;
     height: 550px
 }
+
+/* -- Lang Menu -- */
+
+.nav-right .lang-all-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-right .lang-all-top img{
+    height: 32px;
+    cursor: pointer;
+}
+
+.nav-right .lang-all{
+    display: none;
+    flex-direction: column;
+    background-color: #222222;
+    list-style: none;
+    border-radius: 5px;
+    width: 150px;
+    padding-left: 0px;
+    margin: 10px;
+    position: absolute;
+}
+
+.nav-right .lang-all li{
+    padding: 12px 20px 12px 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.nav-right .lang-all li img{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.nav-right .lang-all li a{
+    color: #585858;
+    text-decoration: none;
+}
+
+.nav-right .lang-all li a:hover{
+    background-color: #f0e48c25;
+    padding: 3px 10px 3px 10px;
+    border-radius: 10px;
+    color: #F7EDA1;
+}
+
+.nav-right .lang-all li .active{
+    color: #FFFFFF;
+}
+
+.lang-img{
+    background-color: transparent;
+    border: none;
+}
